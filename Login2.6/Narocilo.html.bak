@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="icon.jpg" > 
+<title>Hvala za naročilo</title>
+<style>
+*{
+  padding: 0%;
+  margin: 0%;
+
+}
+body{
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:url('pizz.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+.window{
+  width:700px;
+  height:500px;
+  margin:100px;
+  padding:100px;
+  text-align:center;
+  border:1px solid white;
+  border-radius:20px;
+  
+  backdrop-filter:blur(1px) brightness(20%);
+  
+  display:flex;
+  flex-direction: column;
+  color:white;
+  vertical-align: top;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+h{
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 300%;
+}
+.vozicek{
+margin-top: 0px;
+}
+
+.bn3637 {
+  width:200px;
+  height:1500px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  background-color:red;
+}
+
+  .bn38 {
+  border-color: white;
+  border:1px solid white;
+	border-radius:20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bn38:hover {
+  background-color:transparent;
+}
+</style>
+</head>
+<body>
+<div class="window">
+	<img class="vozicek" src="shoping.jpg" alt="Trulli" width="400" height="333">
+	<h>Hvala za naročilo!</h>
+	<img class="2" src="correct.jpg" alt="Trulli" width=100 height=100">
+	<button class="bn3637 bn38" role="button">Naroči </button>
+</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="icon1.png" > 
+<head>
+<title>Pizza order</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="window">
+	<h1>MAKE ORDER</h1>
+	<form action="Narocilo.html" method="post">
+	<input type="text" placeholder="First Name" name="uname" required  maxlength="20"> 	
+	<input type="text" placeholder="Last Name" name="uname" required  maxlength="20">
+	<input type="tel" class="phone" id="phone" name="phone" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="11" placeholder="Phone" required>
+	<h4>Choose Pizza</h4>
+	
+	<div>
+	<div class="card">
+		<img class="blockico" src="Dracula.png" style="width:80%" >
+		<h2>Pizza Dracula</h2>
+		<p class="price">10.00€</p>
+		<td>
+    <div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+
+	</div>
+	
+	
+	<div class="card">
+		<img class="blockico" src="Margerita.png"  style="width:%">
+		<h2>Pizza Margherita</h2>
+		<p class="price">7.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+	</div>
+	
+	
+	<div class="card">
+		<img class="blockico" src="Tonno.png"  style="width:80%">
+		<h2>Pizza Tonno</h2>
+		<p class="price">10.00€</p>
+			<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+			
+		</div>
+		
+			<div class="card">
+		<img class="blockico" src="Chicken BBQ.png" style="width:80%">
+		<h2>Chicken BBQ</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+			
+		</div>
+		
+			<div class="card">
+		<img class="blockico" src="Pepperoni.png"  style="width:80%">
+		<h2>Pizza Pepperoni</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+			
+		</div>
+		
+			<div class="card">
+		<img class="blockico" src="Diablo.png"  style="width:80%">
+		<h2>Pizza Diablo</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+		</div>
+
+	<div class="card">
+		<img class="blockico" src="Hawaiian.png" style="width:80%">
+		<h2>Pizza Hawaiian</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+		</div>
+		
+	<div class="card">
+		<img class="blockico" src="Carbonara.png"  style="width:80%">
+		<h2>Pizza Carbonara</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+			
+		</div>
+		
+		
+	<div class="card">
+		<img class="blockico" src="Mexican.png" style="width:80%">
+		<h2>Pizza Mexican</h2>
+		<p class="price">10.00€</p>
+				<div class="form-row justify-content-center">
+        <div class="form-group">
+            <div class="input-group mx-auto mb-3">
+                <div class="number-input">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                    <input class="quantity" min="0" placeholder="0" name="quantity" value="0" max="20" type="number">
+                    <button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</td>
+			
+		</div>
+
+</div>
+			<select id="placilo" class="sel">
+				<option value="povzetje">Plačilo po povzetju</option>
+				<option value="kartica">Plačilo s kreditno kartico</option>
+				
+			</select>
+			<div id="vnos_kartice">
+			   <h3 style="font-size: 150%;">Vnesite vašo kartico<h3>
+			   
+		<input class="kartica1" type="text" 	placeholder="Name of Card" id="kartica_input" name="kartica_input" maxlength="20">
+			   
+		<input class="kartica" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' pattern="[0-9]( |\-){13,16}" placeholder="XXXX-XXXX-XXXX-XXXX" id="kartica_input" name="kartica_input" maxlength="19">
+					
+		
+		
+		<select id="MM" placeholder="MM" class="DDYY">
+				
+				<option value="1">1</option>
+				<option value="1">2</option>
+				<option value="1">3</option>
+				<option value="1">4</option>
+				<option value="1">5</option>
+				<option value="1">6</option>
+				<option value="1">7</option>
+				<option value="1">8</option>
+				<option value="1">9</option>
+				<option value="1">10</option>
+				<option value="1">11</option>
+				<option value="1">12</option>
+			</select>
+			<select id="YY" placeholder=" " class="DDYY">
+				
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+
+			</select>
+			
+		
+			<input class="CVV" type="text" placeholder="CVV" id="kartica_input" name="kartica_input" onkeypress='return event.charCode >= 48 && event.charCode <= 57' pattern="[0-9]( |\-){13,16}" maxlength="3" >
+			
+			   </div>
+			
+			<select id="dostava" class="sel">
+				<option value="picerija">Prevzem v piceriji</option>
+				<option value="dom">Dostava na dom</option>
+			</select>
+	
+			
+			
+			   
+			   	<div id="vnos_dostave">
+				<h3 style="font-size: 150%;">Vnesi podatke za dostavo<h3>
+				<div>
+				<div style="display:flex">
+				  <input type="text" placeholder="Naslov" id="Naslov" name="Naslov" maxlength="32">
+				</div>
+				<div style="display:flex">
+				  <input type="text" placeholder="Kraj in poštna številka" id="Kraj" name="Kraj" maxlength="32">
+				 </div>
+				</div>
+			   </div>
+				
+				<button class="bn3637 bn38" role="button">Naroči </button>
+				
+</div>
+
+<script>
+
+  const el = document.getElementById('placilo');
+  const el2 = document.getElementById('dostava');
+
+
+  const box = document.getElementById('vnos_kartice');
+
+  el.addEventListener('change', function handleChange(event) {
+    if (event.target.value === 'kartica') {
+      box.style.display = 'block';
+    } else {
+      box.style.display = 'none';
+    }
+  });
+  
+   const box2 = document.getElementById('vnos_dostave');
+
+  el2.addEventListener('change', function handleChange(event) {
+    if (event.target.value === 'dom') {
+      box2.style.display = 'block';
+    } else {
+      box2.style.display = 'none';
+    }
+  });
+  
+$('.kartica').keyup(function() {
+  var foo = $(this).val().split(" ").join(""); 
+  if (foo.length > 0) {
+    foo = foo.match(new RegExp('.{1,4}', 'g')).join(" ");
+  }
+  $(this).val(foo);
+});
+
+$('.phone').keyup(function() {
+  var foo = $(this).val().split(" ").join(""); 
+  if (foo.length > 0) {
+    foo = foo.match(new RegExp('.{1,3}', 'g')).join(" ");
+  }
+  $(this).val(foo);
+});
+
+</script>
+
+</body>
+
+</html>
